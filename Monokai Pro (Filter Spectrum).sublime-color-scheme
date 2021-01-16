@@ -37,7 +37,7 @@
     "bracket_contents_options": "underline",
     "tags_options": "stippled_underline",
     "gutter": "#000000",
-    "gutter_foreground": "#ffffff",
+    "gutter_foreground": "#ffffff9f",
     "shadow": "#00000000",
     "shadow_width": "0",
     "highlight": "#69676c",
