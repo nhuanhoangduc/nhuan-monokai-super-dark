@@ -11,7 +11,7 @@
     "blue": "#5ad4e6",
     "purple": "#948ae3",
     "black": "#000000",
-    "white": "#f7f1ff",
+    "white": "#ffffff",
     "accent1": "#fc618d",
     "accent2": "#fd9353",
     "accent3": "#fce566",
@@ -21,9 +21,9 @@
   },
   "globals": {
     "background": "#000000",
-    "foreground": "#f7f1ff",
+    "foreground": "#ffffff",
     "invisibles": "#525053",
-    "caret": "#f7f1ff",
+    "caret": "#ffffff",
     "block_caret": "#8b888f",
     "guide": "#363537",
     "stackGuide": "#363537",
@@ -33,11 +33,11 @@
     "selection_border_width": "1",
     "selection_corner_style": "round",
     "selection_corner_radius": "2",
-    "line_highlight": "#f7f1ff0c",
+    "line_highlight": "#ffffff2f",
     "bracket_contents_options": "underline",
     "tags_options": "stippled_underline",
-    "gutter": "#222222",
-    "gutter_foreground": "#525053",
+    "gutter": "#000000",
+    "gutter_foreground": "#ffffff",
     "shadow": "#00000000",
     "shadow_width": "0",
     "highlight": "#69676c",
@@ -50,7 +50,7 @@
     "line_diff_added": "#7bd88f",
     "line_diff_modified": "#fce566",
     "line_diff_deleted": "#fc618d",
-    "popup_css": "html {--background: #222222;--foreground: #f7f1ff;--redish: #fc618d;--orangish: #fd9353;--yellowish: #fce566;--greenish: #7bd88f;--bluish: #5ad4e6;--purplish: #948ae3;--pinkish: #fc618d; background-color: #363537;color: #f7f1ff;} a {color: var(--yellowish);}"
+    "popup_css": "html {--background: #222222;--foreground: #ffffff;--redish: #fc618d;--orangish: #fd9353;--yellowish: #fce566;--greenish: #7bd88f;--bluish: #5ad4e6;--purplish: #948ae3;--pinkish: #fc618d; background-color: #363537;color: #ffffff;} a {color: var(--yellowish);}"
   },
   "rules": [
     {
@@ -92,7 +92,7 @@
     {
       "name": "git status remote",
       "scope": "comment.other.git-status.head",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Constant",
@@ -102,7 +102,7 @@
     {
       "name": "Constant",
       "scope": "constant.other",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Constant",
@@ -182,7 +182,7 @@
     {
       "name": "Functions",
       "scope": "entity.name.function.member.static",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Class template",
@@ -217,7 +217,7 @@
     {
       "name": "Namespace",
       "scope": "entity.name.namespace",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Inherited class",
@@ -285,7 +285,7 @@
     {
       "name": "custom literal",
       "scope": "entity.name.operator.custom-literal",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "custom literal string",
@@ -435,7 +435,7 @@
     {
       "name": "Function arguments (vs)",
       "scope": "meta.function-call.python meta.function-call.arguments.python",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Constructor (new MyClass())",
@@ -455,7 +455,7 @@
     {
       "name": "JSON keys (and invisibles)",
       "scope": "source.json meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary, source.json meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string, source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "JSON values",
@@ -465,7 +465,7 @@
     {
       "name": "Object members",
       "scope": "meta.object.member",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "SCSS Variable",
@@ -485,7 +485,7 @@
     {
       "name": "rust specific (brackets and certain type names)",
       "scope": "meta.type_params.rust",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "rust specific (variable.language.rust is 'self' keyword.",
@@ -505,7 +505,7 @@
     {
       "name": "Group (i.e. in regex)",
       "scope": "punctuation.definition.group",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Comment start / end",
@@ -582,7 +582,7 @@
     {
       "name": "source",
       "scope": "source",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "SASS, SCSS default",
@@ -677,12 +677,12 @@
     {
       "name": "String label",
       "scope": "string.unquoted.label",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Source in template string",
       "scope": "string source",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Embedded punctuation begin / end in template string",
@@ -759,7 +759,7 @@
       "name": "Library type property",
       "scope": "support.type.property-name",
       "font_style": "normal",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Library class",
@@ -774,17 +774,17 @@
     {
       "name": "text",
       "scope": "text",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Search result",
       "scope": "text.find-in-files",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Variable",
       "scope": "variable, variable.other",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Function arguments",
@@ -816,12 +816,12 @@
     {
       "name": "read/write variables",
       "scope": "variable.other.readwrite",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Fields, properties, members and attributes of a class or other data structure should use:",
       "scope": "variable.other.member",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Enum member",
@@ -831,7 +831,7 @@
     {
       "name": "Variable property",
       "scope": "variable.other.property, variable.other.property.static, variable.other.event",
-      "foreground": "#f7f1ff"
+      "foreground": "#ffffff"
     },
     {
       "name": "Function and method names should be scoped using the following, but only when they are being invoked. When defined, they should use entity.name.function.",
